@@ -1,0 +1,26 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "Task 2",
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn parcel src/index.html"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Nikita <kudriashovns@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "packageManager": "yarn@3.0.2",
+  "dependencies": {
+    "@parcel/transformer-image": "^2.0.0-nightly.1981"
+  }
+}
