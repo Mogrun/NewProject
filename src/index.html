@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css"/>
     <link rel="stylesheet" href="social.css">
     <link rel="stylesheet" href="anim.css">
+    <link rel="stylesheet" href="feedback.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
     </style>
@@ -68,6 +69,21 @@
         </div>
       </div>
     </div>
-  </div>       
+  </div> 
+  <form method="post">
+    <ul>
+      <li>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+      </li>      
+      <li>
+        <label for="msg">Message:</label>
+        <input id="msg" name="user_message">
+      </li>    
+    <li>
+      <button class="button" type="submit">Send</button>
+    </li>
+  </ul>
+  </form>       
   </body>
 </html>
