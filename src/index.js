@@ -1,4 +1,6 @@
-var Name = document.getElementsByName('user_name');
-var msg = document.getElementsByName('user_message');
-console.log("Имя: ", Name)
-console.log("Сообщение: ", msg)
+butt.onclick = function(){
+    var Name = document.getElementById("name").value;
+    var msg = document.getElementById("msg").value;
+    console.log("Name: ",Name);
+    console.log("Message: ",msg);
+}
